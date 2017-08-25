@@ -1,0 +1,42 @@
+
+// !include{unimark.mrk}
+!tex
+\newcommand{\unitexline}[1]{- #1\\}
+
+
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{grffile}
+
+
+\newcommand{\unifig}[2]{
+\begin{center}
+\includegraphics[width=1.0\textwidth,keepaspectratio]{#1}\\
+\end{center}
+}
+
+
+
+!begin
+
+{\Large FLUID tutorial - Step \#2}
+
+!section Introduction
+This tutorial will give you basics for making with Fluid interface
+several buttons on a window with FLTK.
+
+!section Procedure
+
+As similar to Tutorial \#1, you may add the buttons with Fluid and add in the created code the call for the window (with show).
+
+!section Conclusion
+This show a simple example with 3 buttons, which were
+made with FLUID. The method is very similar to Tuto Step \#1. 
+
+Et Voila, the final result. 
+!fig{tuto02.png}
+
+
+!enddoc
+
